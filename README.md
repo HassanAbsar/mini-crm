@@ -42,9 +42,9 @@ Under Select Device, choose your device or Other (Custom).
 Click Generate.
 Copy the 16-character password and use it as MAIL_PASSWORD in .env
 
-8: Queue Setup 
-in .env file
-QUEUE_CONNECTION=database 
+8: Run Queue Worker 
+
+.env QUEUE_CONNECTION=database 
 
 after that run this php artisan queue:work
 
